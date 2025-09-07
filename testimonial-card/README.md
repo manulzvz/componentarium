@@ -35,6 +35,8 @@ Card component featuring a user testimonial, including a profile image, name, us
 
 ## Demo
 
+[Live Demo](https://manulzvz.github.io/componentarium/testimonial-card/)
+
 ![Testimonial Card Screenshot](./public/testimonial-card.JPG)
 
 ---
