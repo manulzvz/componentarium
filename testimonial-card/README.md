@@ -10,6 +10,7 @@
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Technologies](#technologies)
+  - [Demo](#demo)
   - [Installation](#installation)
   - [Run Project](#run-project)
   - [Contributions](#contributions)
@@ -29,6 +30,12 @@ Card component featuring a user testimonial, including a profile image, name, us
 - **Frontend:** React
 - **Styles:** TailwindCSS
 - **Tools:** Git, Prettier, ESLint, Vite
+
+---
+
+## Demo
+
+![Testimonial Card Screenshot](./public/testimonial-card.JPG)
 
 ---
 
