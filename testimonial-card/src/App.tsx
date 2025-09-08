@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="relative">
-      <div className="h-screen w-full flex justify-center">
+      <div className="flex justify-center w-full h-screen">
         <TestimonialCard {...testimonial} />
       </div>
     </div>
