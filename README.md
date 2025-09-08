@@ -34,7 +34,7 @@ This project is a personal playground for experimenting with React components. I
 - **Frontend:** React
 - **Styles:** TailwindCSS
 - **Testing:** Jest
-- **Tools:** Git, Prettier, ESLint, Vite
+- **Tools:** Git, Prettier, ESLint, Vite, Bash script
 
 ---
 
@@ -64,6 +64,7 @@ componentarium/
 ├── component1/
 ├── component2/
 ├── LICENSE
+├── deploy-component.sh
 └── README.md
 ```
 
