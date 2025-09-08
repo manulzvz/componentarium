@@ -48,7 +48,7 @@ Card component featuring a user testimonial, including a profile image, name, us
 git clone https://github.com/manulzvz/componentarium/testimonial-card.git
 
 # Enter project's directory
-cd REPO-NAME
+cd testimonial-card
 
 # Install dependencies
 npm install

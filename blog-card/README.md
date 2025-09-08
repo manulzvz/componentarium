@@ -1,69 +1,89 @@
-# React + TypeScript + Vite
+# Blog Card Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![State](https://img.shields.io/badge/state-in%20development-yellow)](https://github.com/manulzvz/componentarium/blog-card)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Blog Card Component](#blog-card-component)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Technologies](#technologies)
+  - [Demo](#demo)
+  - [Installation](#installation)
+  - [Run Project](#run-project)
+  - [Contributions](#contributions)
+  - [Project Status](#project-status)
+  - [Contact](#contact)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Description
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+blog card featuring editorial content, including an article cover image, a content category tag, a title, a brief description, and a call-to-action (CTA) link.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Technologies
+
+- **Frontend:** React
+- **Styles:** TailwindCSS
+- **Tools:** Git, Prettier, ESLint, Vite
+
+---
+
+## Demo
+
+[Live Demo](https://manulzvz.github.io/componentarium/blog-card/)
+
+![Testimonial Card Screenshot](./public/blog-card.JPG)
+
+---
+
+## Installation
+
+```bash
+# Clone repository
+git clone https://github.com/manulzvz/componentarium/blog-card.git
+
+# Enter project's directory
+cd blog-card
+
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Run Project
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm start
 ```
+
+For libraries or components, show how to import and use them.
+
+```jsx
+import BlogCard from "BlogCard.tsx";
+<BlogCard props={...} />;
+```
+
+## Contributions
+
+1. Fork the repository
+2. Create a feature/new-feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+## Project Status
+
+- Experimental
+
+## Contact
+
+GitHub: [manulzvz](https://github.com/manulzvz)
+
+LinkedIn: [manulzvz](https://www.linkedin.com/in/manulzvz/)
+
+Email: <manulzvz@gmail.com>
+
+---
+
+Made with ♥︎ by @manulzvz
